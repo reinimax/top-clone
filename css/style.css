@@ -387,7 +387,8 @@ gaps like display: inline-block */
 
 /* How it works */
 .how-it-works,
-.skills {
+.skills,
+.successes {
   text-align: center;
 }
 
@@ -421,6 +422,17 @@ gaps like display: inline-block */
   padding: 23px 46px 25px;
   background-color: white;
   text-decoration: none;
+}
+
+/* Sucess stories*/
+.testimonial {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.testimonial img {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
