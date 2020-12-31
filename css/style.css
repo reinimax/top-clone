@@ -374,7 +374,7 @@ gaps like display: inline-block */
 }
 
 /* Hero */
-.container {
+.hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -383,6 +383,15 @@ gaps like display: inline-block */
 .hero h1,
 .hero p {
   text-align: center;
+}
+
+/* How it works */
+.how-it-works {
+  text-align: center;
+}
+
+.how-it-works .item img {
+  height: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */
