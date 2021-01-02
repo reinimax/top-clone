@@ -492,6 +492,8 @@ h1 {
 }
 
 h2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
   font-size: 1.5rem;
 }
 
@@ -592,8 +594,53 @@ button:hover {
   text-align: center;
 }
 
+.how-it-works {
+  margin: 0 auto 3em;
+  max-width: 540px;
+}
+
+.how-it-works .item {
+  padding: 1em;
+}
+
 .how-it-works .item img {
   height: 120px;
+}
+
+@media (min-width: 768px) {
+  .how-it-works {
+    max-width: 720px;
+  }
+
+  .how-it-works .item img {
+    height: 165px;
+  }
+}
+@media (min-width: 1000px) {
+  .how-it-works {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .how-it-works {
+    max-width: 1140px;
+  }
+}
+.how-it-works p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+  font-size: 1.125rem;
+}
+
+.how-it-works > p {
+  padding-bottom: 4.375rem;
+}
+
+.how-it-works h3 {
+  padding-top: 2.5em;
+  padding-bottom: 1em;
 }
 
 /* Skills */
