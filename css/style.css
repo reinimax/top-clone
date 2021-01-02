@@ -697,14 +697,57 @@ button:hover {
 }
 
 /* Sucess stories*/
+.successes {
+  background-image: linear-gradient(white, #f3f3f3);
+}
+
 .testimonial {
   display: flex;
   align-items: flex-start;
   text-align: left;
+  max-width: 600px;
+  margin: 0 auto 2.5em;
+  padding-right: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.8;
 }
 
 .testimonial img {
+  margin: 1rem 1.5rem;
   border-radius: 50%;
+}
+
+.testimonial a {
+  display: block;
+  padding-bottom: 0.5em;
+  color: #ce973e;
+  text-decoration: none;
+}
+
+.testimonial a:hover {
+  color: black;
+}
+
+.successes > a {
+  display: block;
+  margin-top: 2rem;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.successes > a:hover {
+  color: black;
+}
+
+.call-to-action {
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+  font-size: 2.2rem;
+  font-weight: 100;
+}
+
+.successes button {
+  margin-bottom: 5rem;
+  padding: 1rem 3.5rem;
 }
 
 /* Footer */
