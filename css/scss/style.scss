@@ -3,6 +3,7 @@
 */
 
 @use "base";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 
 /*
     Variables: overwrite the ones you want to change. In the comments you find the defaults
@@ -10,14 +11,15 @@
 
 /* Typography */
 $font-serif: base.$font-serif; // 100% Georgia, 'Times New Roman', Times, serif
-$font-sans-serif: base.$font-sans-serif; // 100% 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+$font-sans-serif: 100% "Open Sans", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
 
 /* Colors */
 $dark: base.$dark; // rgb(31, 31, 31)
 $light: base.$light; // rgb(255, 255, 255)
 
-$primary-color: base.$primary-color; // rgb(175, 0, 0)
-$secondary-color: base.$secondary-color; // rgb(0, 70, 0)
+$primary-color: rgb(106, 191, 195);
+$secondary-color: rgb(206, 151, 62);
 
 $text-primary: base.$text-primary; // same as $dark
 $text-secondary: base.$text-secondary; // rgb(82,82,82)
@@ -50,16 +52,8 @@ $input-default;
     Your code starts here
 */
 
-// add secondary color: rgb(206, 151, 62);
 // text grey: rgba(74, 74, 74, 0.7);
 // text black: rgb(74, 74, 74);
-
-// @imoprt statement must come after @use statement
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
-
-// @use with doesn't work with fonts because they are comma-separated,so I define my own variable here.
-$font-sans-serif: 100% "Open Sans", "Helvetica Neue", Helvetica, Arial,
-  sans-serif;
 
 /* General/Typography */
 body {
@@ -105,7 +99,7 @@ h3 {
   height: 2px;
   margin-top: 6px;
   margin-bottom: 6px;
-  background-color: base.$primary-color;
+  background-color: $primary-color;
 }
 
 /* Hero */
@@ -194,6 +188,6 @@ nav a {
   right: 10px;
   width: 68px;
   padding: 16px;
-  background-color: base.$primary-color;
+  background-color: $primary-color;
   border-radius: 50%;
 }

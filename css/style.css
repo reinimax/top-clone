@@ -1,26 +1,6 @@
 /*
     This document contains styles specific to the current webpage.
 */
-/*
-    Variables: overwrite the ones you want to change. In the comments you find the defaults
-*/
-/* Typography */
-/* Colors */
-/* Variables that cannot be changed here. Prefix them like this: base.<variablename>
-
-$primary-color-light;
-$primary-color-dark;
-$secondary-color-light;
-$secondary-color-dark;
-$complementary-color;
-$complementary-light;
-$complementary-dark;
-
-$input-default;
-*/
-/*
-    Your code starts here
-*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 /*
 	reinimax' CSS framework
@@ -472,6 +452,26 @@ gaps like display: inline-block */
   height: 100%;
 }
 
+/*
+    Variables: overwrite the ones you want to change. In the comments you find the defaults
+*/
+/* Typography */
+/* Colors */
+/* Variables that cannot be changed here. Prefix them like this: base.<variablename>
+
+$primary-color-light;
+$primary-color-dark;
+$secondary-color-light;
+$secondary-color-dark;
+$complementary-color;
+$complementary-light;
+$complementary-dark;
+
+$input-default;
+*/
+/*
+    Your code starts here
+*/
 /* General/Typography */
 body {
   font: 100% "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -516,7 +516,7 @@ h3 {
   height: 2px;
   margin-top: 6px;
   margin-bottom: 6px;
-  background-color: #af0000;
+  background-color: #6abfc3;
 }
 
 /* Hero */
@@ -603,7 +603,7 @@ nav a {
   right: 10px;
   width: 68px;
   padding: 16px;
-  background-color: #af0000;
+  background-color: #6abfc3;
   border-radius: 50%;
 }
 
