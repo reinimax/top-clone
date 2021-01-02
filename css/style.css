@@ -484,6 +484,8 @@ h3 {
 }
 
 h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
   font-size: 2.25rem;
   font-weight: 300;
   color: #ce973e;
@@ -499,6 +501,29 @@ h3 {
 
 p {
   color: rgba(74, 74, 74, 0.7);
+}
+
+button {
+  padding: 1rem 2.5rem;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: #6abfc3;
+}
+
+.btn-secondary {
+  background-color: #ce973e;
 }
 
 /* Site header*/
@@ -546,7 +571,18 @@ p {
 
 .hero h1,
 .hero p {
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  padding-bottom: 4.375rem;
+}
+
+.hero button {
+  margin-bottom: 4.375rem;
 }
 
 /* How it works */
