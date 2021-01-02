@@ -4,8 +4,38 @@
 */
 
 @use "base" with (
-    $primary-color: rgb(106, 191, 195),
+    $primary-color: rgb(106, 191, 195), 
 );
+// add secondary color: rgb(206, 151, 62);
+// text grey: rgba(74, 74, 74, 0.7);
+// text black: rgb(74, 74, 74);
+
+// @imoprt statement must come after @use statement
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+// @use with doesn't work with fonts because they are comma-separated,so I define my own variable here.
+$font-sans-serif: 100% "Open Sans", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+
+/* General/Typography */
+body {
+  font: $font-sans-serif;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
 
 /* Site header*/
 .site-header {

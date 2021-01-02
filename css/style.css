@@ -1,4 +1,9 @@
 /*
+    This document contains styles specific to the current webpage.
+    @use "base" with ($a: x, $b: y, ...); to change predefined variables.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+/*
 	reinimax' CSS framework
 	-----------------------
 	Contents:
@@ -342,10 +347,26 @@ gaps like display: inline-block */
   height: 100%;
 }
 
-/*
-    This document contains styles specific to the current webpage.
-    @use "base" with ($a: x, $b: y, ...); to change predefined variables.
-*/
+/* General/Typography */
+body {
+  font: 100% "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
 /* Site header*/
 .site-header {
   display: flex;
