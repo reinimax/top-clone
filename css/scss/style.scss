@@ -176,7 +176,6 @@ button:hover {
 
 .how-it-works {
   margin: 0 auto 3em;
-  max-width: 540px;
 }
 
 .how-it-works .item {
@@ -187,38 +186,27 @@ button:hover {
   height: 120px;
 }
 
-@media (min-width: 768px) {
-  .how-it-works {
-    max-width: 720px;
-  }
-  .how-it-works .item img {
-    height: 165px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .how-it-works {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .how-it-works {
-    max-width: 1140px;
-  }
-}
-
 .how-it-works p {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 2em;
+  padding: 0 72px 2em;
   font-size: 1.125rem;
+}
+
+@media (min-width: 768px) {
+  .how-it-works .item img {
+    height: 165px;
+  }
+  .how-it-works p {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 // this is the first, introductory paragraph
 .how-it-works > p {
-  padding-bottom: 4.375rem;
+  padding: 0 1rem 4.375rem;
 }
 
 .how-it-works h3 {
